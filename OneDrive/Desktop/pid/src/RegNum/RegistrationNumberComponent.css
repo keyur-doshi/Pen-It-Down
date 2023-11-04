@@ -36,3 +36,32 @@
     font-size: 2rem;
   }
   
+  @media screen and (max-width: 768px) {
+    .registration-container h1 {
+      font-size: 3rem;
+    }
+  
+    .registration-input {
+      width: 80%; /* Adjust the width as needed */
+      font-size: 1.5rem;
+    }
+  
+    .registration-result {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .registration-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .registration-input {
+      width: 90%; /* Adjust the width as needed */
+      font-size: 1.2rem;
+    }
+  
+    .registration-result {
+      font-size: 2rem;
+    }
+  }

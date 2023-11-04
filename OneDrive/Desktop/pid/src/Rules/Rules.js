@@ -11,8 +11,6 @@ function Rules() {
     "Plagiarism and AI checks will be kept in place, and any offenders will be disqualified from the competition.",
     "Profanities in the written work will not be tolerated."
   ];
-  
-  const googleFormLink = "https://forms.gle/EZzqTLGCSki9iwBg8";
 
   return (
     <div className="rules-container">
@@ -25,9 +23,6 @@ function Rules() {
           <li key={index}>{rule}</li>
         ))}
       </ul>
-      <p className="centered-paragraph">
-        <b> <a href={googleFormLink} target="_blank" rel="noopener noreferrer">Submit your work here</a> </b>
-      </p>
     </div>
   );
 }

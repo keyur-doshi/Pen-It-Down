@@ -5,19 +5,19 @@ const RegistrationNumberComponent = () => {
   // Define your array of values
   const values = [
     "A world where shadows have a life of their own.",
-    "The last human on Earth receives a message from outer space.",
+    //"The last human on Earth receives a message from outer space.",
     "A watch that can turn back time, but only by five minutes.",
-    "An ancient tree in a forest that can share the memories it has witnessed.",
-    "Every night, a dreamer visits a city that doesn't exist in the waking world.",
-    "The moment when the oceans decided to leave the Earth.",
-    "A diary found in a haunted mansion that describes the future.",
+    //"An ancient tree in a forest that can share the memories it has witnessed.",
+    //"Every night, a dreamer visits a city that doesn't exist in the waking world.",
+    //"The moment when the oceans decided to leave the Earth.",
+    //"A diary found in a haunted mansion that describes the future.",
     "When the world's most famous paintings come to life at midnight.",
-    "The first annual convention of imaginary friends.",
+    //"The first annual convention of imaginary friends.",
     "A forgotten letter in a bottle reaches its destination after 100 years.",
-    "In a world where everyone's life soundtrack is audible, one person hears silence.",
-    "A train that only stops in towns that have been lost in time.",
-    "The mysterious origins of a carnival that appears once every 50 years.",
-    "An island where all lost things end up.",
+    //"In a world where everyone's life soundtrack is audible, one person hears silence.",
+    //"A train that only stops in towns that have been lost in time.",
+    //"The mysterious origins of a carnival that appears once every 50 years.",
+    //"An island where all lost things end up.",
     "The day animals decided to hold a summit to discuss humans."
   ];
   

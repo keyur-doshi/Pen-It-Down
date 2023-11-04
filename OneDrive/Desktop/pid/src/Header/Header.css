@@ -24,3 +24,23 @@
 .heading {
   font-size: 10em; /* Adjust the font size as needed */
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Adjust the height to fit content */
+  }
+
+  .logo {
+    margin-right: 0; /* Remove the right margin */
+  }
+
+  .logo img {
+    max-width: 100%; /* Make the image responsive to the container */
+    max-height: auto;
+  }
+
+  .heading {
+    font-size: 6em; /* Reduce the font size for smaller screens */
+  }
+}
