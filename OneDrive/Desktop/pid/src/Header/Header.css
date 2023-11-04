@@ -1,0 +1,26 @@
+/* Header.css */
+
+.header {
+  background-color:#ED3C71;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+  flex-direction: row; 
+}
+
+.logo {
+  margin-right: 1em;
+}
+
+/* Additional styles for the image */
+.logo img {
+  max-width: 25em; /* Adjust the image size as needed */
+  max-height: 15em;
+}
+
+/* Additional styles for the heading */
+.heading {
+  font-size: 10em; /* Adjust the font size as needed */
+}

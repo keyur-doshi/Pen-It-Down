@@ -1,0 +1,38 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  
+  .registration-container h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .registration-input {
+    width: 50%;
+    height: 60px;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .registration-result {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .registration-result button {
+    font-size: 18px; /* You can adjust this value for your desired size */
+    padding: 10px 20px; /* You can adjust the padding for width and height */
+  }
+
+  .invalid-registration {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+  }
+  

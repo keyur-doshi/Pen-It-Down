@@ -1,0 +1,39 @@
+.rules-container {
+    text-align: center;
+    margin: 1em;
+    font-size: 5em;
+  }
+  
+  .centered-paragraph {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding:0;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  
+  ul {
+    list-style: decimal;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2rem;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  a {
+    font-size: 3rem;
+    color: #ED3C71;
+  }
+
+  a:hover{
+    color: rgb(60, 92, 237);
+  }
