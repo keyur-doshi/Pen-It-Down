@@ -16,7 +16,7 @@ function Rules() {
     <div className="rules-container">
       <h2>Event Rules</h2>
       <p className="centered-paragraph">
-        All participants are strictly required to adhere to the following rules. After reading the rules, you are required to enter your registration number to get your topic. The writing piece has to be submitted using the Google form link given at the end. All the best.<br/> <b>Happy Writing!</b>
+        All participants are strictly required to adhere to the following rules. After reading the rules, you are required to enter your registration number to get your topic. The writing piece has to be submitted using the Google form link given at the end.<br/> All the best.<br/> <b>Happy Writing!</b>
       </p>
       <ul>
         {rules.map((rule, index) => (

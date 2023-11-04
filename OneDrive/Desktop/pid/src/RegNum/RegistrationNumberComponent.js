@@ -25,6 +25,7 @@ const RegistrationNumberComponent = () => {
   // State to store the registration number input
   const [registrationNumber, setRegistrationNumber] = useState('');
   const [displayedValue, setDisplayedValue] = useState(null);
+  const [enterPressed, setEnterPressed] = useState(false);
 
   // Handle changes to the input field
   const handleInputChange = (e) => {
@@ -47,6 +48,12 @@ const RegistrationNumberComponent = () => {
     }
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      setEnterPressed(true);
+    }
+  };
+
   return (
     <div className="registration-container">
       <h1>Enter Your Registration Number To Get Your Topic</h1>
@@ -56,15 +63,31 @@ const RegistrationNumberComponent = () => {
         placeholder="Enter registration number"
         value={registrationNumber}
         onChange={handleInputChange}
+        onKeyPress={handleKeyPress}
       />
-      {displayedValue !== null ? (
+      {/* {displayedValue !== null ? (
         <div  className="registration-result">
           <p>Registration Number <b>{registrationNumber}</b>:<br/>Topic: <b>{displayedValue}</b></p>
           <button onClick={() => setRegistrationNumber('')}>Clear the field before entering the registration number again.</button>
         </div>
       ) : (
         <p className="invalid-registration">Invalid Registration Number</p>
-      )}
+      )} */}
+      {enterPressed ? ( // Conditionally render based on enterPressed state
+        displayedValue !== null ? (
+          <div className="registration-result">
+            <p>
+              Registration Number <b>{registrationNumber}</b>:<br />
+              Topic: <b>{displayedValue}</b>
+            </p>
+            <button onClick={() => {setRegistrationNumber(''); setEnterPressed(false)}}>
+              Clear the field before entering the registration number again.
+            </button>
+          </div>
+        ) : (
+          <p className="invalid-registration">Invalid Registration Number</p>
+        )
+      ) : null}
     </div>
   );
 };
